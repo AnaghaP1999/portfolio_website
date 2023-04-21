@@ -1,0 +1,122 @@
+html, body, div, span,
+ h1, h2, h3, p, em, img, q,
+ b, i,
+ dl, dt, dd, ol, ul, li, tr, th,
+ details,
+ footer, header, nav, section {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+ }
+ 
+ details,
+ footer,header,nav,section {
+    display: block;
+ }
+ 
+ code, pre {
+    font-family: monospace, serif;
+    font-size: 1em;
+ }
+ 
+ pre {
+    white-space: pre;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+ }
+ 
+ * {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+ }
+ 
+ html {
+    font-size: 62.5%;
+    -webkit-font-smoothing: antialiased;
+ }
+ 
+ body {
+    background: #fff;
+    font-family: 'opensans-regular', sans-serif;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 30px;
+     color: #838C95;
+ }
+ 
+ h1, h2, h3 {
+    color: white;
+     font-family: 'opensans-bold', sans-serif;
+    font-weight: normal;
+ }
+ h1 a, h2 a, h3 a { 
+   font-weight: inherit; 
+}
+ h1 { 
+   font-size: 38px; 
+   line-height: 42px; 
+   margin-bottom: 12px; 
+   letter-spacing: -1px; }
+ h2 { 
+   font-size: 28px; 
+   line-height: 36px; 
+   margin-bottom: 6px; 
+}
+ h3 { 
+   font-size: 22px; 
+   line-height: 30px; 
+   margin-bottom: 12px; 
+}
+ 
+ em { font: 15px/30px 'opensans-italic', sans-serif; }
+ strong { font: 15px/30px 'opensans-bold', sans-serif; }
+ 
+ hr { border: solid #E3E3E3; border-width: 1px 0 0; clear: both; margin: 11px 0 30px; height: 0; }
+ 
+ 
+ img {
+    max-width: 100%;
+    height: auto;
+ }
+ 
+ .row {
+    width: 96%;
+    max-width: 1020px;
+    margin: 0 auto;
+ }
+
+ .ie .row { width: 1000px ; }
+ 
+ .narrow .row { max-width: 980px; }
+ 
+ .row .row { width: auto; max-width: none; margin: 0 -20px; }
+ 
+ .row:before,
+ .row:after {
+     content: " ";
+     display: table;
+ }
+ .row:after {
+     clear: both;
+ }
+ 
+ .column, .columns {
+    position: relative;
+    padding: 0 20px;
+    min-height: 1px;
+    float: left;
+ }
+ .column.centered, .columns.centered  {
+     float: none;
+     margin: 0 auto;
+ }
+
+ .row .nine        { width: 75%; }
+ .row .ten         { width: 83.33333%; }
+ .row .eleven      { width: 91.66667%; }
+ .row .twelve      { width: 100%; }
